@@ -1,4 +1,4 @@
-rom main import *
+from main import *
 
 run_cases = [
     (["200", 300, 2, False, "otherstring", 6], [300, 2, 6]),
