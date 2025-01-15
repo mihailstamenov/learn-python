@@ -5,6 +5,6 @@ def meditate(mana, max_mana, energy, energy_potions):
             energy += 50
         mana += 3
         energy -= 1
-    if mana > max_mana:
-        mana = max_mana
+    # if mana > max_mana:
+    #     mana = max_mana
     return mana, energy, energy_potions
